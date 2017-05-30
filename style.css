@@ -1,0 +1,136 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+}
+img {
+	width: 20%;
+	display: block;
+	margin: auto;
+	border-radius: 9999px;
+}
+div > p {
+	top: 10px;
+	position: relative;
+	font-size: 1em;
+}
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+.table {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.companyName {
+	font-weight: bold;
+	font-size: 1.85em;
+}
+.jobTitle {
+	font-style: italic;
+	font-size: 1.55em;
+}
+.date {
+	position: relative;
+	text-align: right;
+	top: -76px;
+	font-size: 1.5em;
+}
+.progress {
+	background-color: #c2c4c4;
+	width: 100%;
+	margin-right: 200px;
+}
+tr > td {
+	font-size: 1.75em;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid black;
+	margin: 1em 0;
+	padding: 0;
+}
+td {
+	text-align: center;
+}
+
+/*Max 414*/
+
+@media screen and (max-width: 414px) {
+	img {
+		width: 25%;
+		margin: 0 auto;
+		display: block;
+	}
+	.companyName {
+		font-size: 1.5em;
+	}
+	.jobTitle,
+	.date {
+		font-size: 1.2em;
+		text-align: left;
+	}
+	.date {
+		top: 5px;
+	}
+	#skillset {
+		display: none;
+	}
+}
+
+/*Max 1000 Min 671*/
+
+@media screen and (max-width: 1000px) and (min-width: 681px) {
+	img {
+		width: 20%;
+		margin: 0 auto;
+		display: block;
+	}
+	/*body {
+		background-color: lightgreen;
+	}*/
+	.companyName {
+		font-size: 1.6em;
+	}
+	.jobTitle,
+	.date {
+		font-size: 1.25em;
+	}
+	.date {
+		position: relative;
+		top: -60px;
+	}
+	.about {
+		font-size: 1.2em;
+	}
+}
+
+/*Max 670 Min 415*/
+
+@media (max-width: 680px) and (min-width: 415px) {
+	.date {
+		position: relative;
+		top: 3px;
+		text-align: left;
+	}
+	img {
+		width: 25%;
+		margin: 0 auto;
+		display: block;
+	}
+	.about {
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 545px) {
+	#skillset {
+		display: none;
+	}
+	.about {
+		font-size: 1.25em;
+	}
+}
