@@ -64,6 +64,9 @@ hr {
 td {
 	text-align: center;
 }
+#port-head {
+    color: coral;
+}
 
 /*Max 414*/
 
