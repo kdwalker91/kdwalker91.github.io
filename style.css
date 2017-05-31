@@ -3,8 +3,6 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Merriweather', serif;
-	/* TEST changing background color to gray */
-	background-color: gray;
 }
 img {
 	position: relative;
