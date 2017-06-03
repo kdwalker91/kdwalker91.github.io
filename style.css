@@ -178,6 +178,10 @@
 	    .about {
 	        position: relative;
 	    }
+	    #resume {
+	        position: relative;
+	        top: 10px;
+	    }
 	}
 	/*Max 1000 Min 671*/
 	
