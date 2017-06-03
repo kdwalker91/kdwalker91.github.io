@@ -91,11 +91,11 @@
 	
 	#resume {
 	    position: relative;
+	    margin-top: 20px;
 	}
 	
 	#skillset {
 	    position: relative;
-	    top: 15px;
 	}
 	
 	h1,
@@ -180,7 +180,7 @@
 	    }
 	    #resume {
 	        position: relative;
-	        top: 10px;
+	        top: 20px;
 	    }
 	}
 	/*Max 1000 Min 671*/
@@ -191,9 +191,6 @@
 	        margin: 0 auto;
 	        display: block;
 	    }
-	    /*body {
-		background-color: lightgreen;
-	}*/
 	    .companyName {
 	        font-size: 1.6em;
 	    }
@@ -207,6 +204,13 @@
 	    }
 	    .about {
 	        font-size: 1.2em;
+	    }
+	    #skillset {
+	        margin-top: 20px;
+	    }
+	    #resume {
+	        position: relative;
+	        top: 20px;
 	    }
 	}
 	/*Max 670 Min 415*/
@@ -231,6 +235,10 @@
 	    #skillset {
 	        margin-top: 20px;
 	    }
+	    #resume {
+	        position: relative;
+	        top: 20px;
+	    }
 	}
 	/*Max 545*/
 	
@@ -241,6 +249,10 @@
 	    .about {
 	        font-size: 1.25em;
 	        margin-top: 15px;
+	    }
+	    #resume {
+	        position: relative;
+	        margin-top: 20px;
 	    }
 	}
 	/* Footer */
