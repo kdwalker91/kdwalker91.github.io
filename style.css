@@ -88,8 +88,7 @@
 	#skillset {
 		position: relative;
 	}
-	h1,
-	h2 {
+	h1 {
 		text-align: center;
 		font-size: 2em;
 	}
@@ -118,7 +117,7 @@
 		margin-right: 200px;
 	}
 	tr>td {
-		font-size: 1.75em;
+		font-size: 1.25em;
 	}
 	h3 {
 		font-size: 1.25em;
@@ -266,7 +265,8 @@
 			position: relative;
 			top: 20px;
 		}
-		#skills-small-device {
+		#skills-small-device,
+		.skills-heading {
 			display: none;
 		}
 	}
