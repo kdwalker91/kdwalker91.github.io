@@ -139,12 +139,14 @@
 		top: 25px;
 	}
 	section {
-		width: 75%;
+		position: relative;
 		margin: 0 auto;
+		top: 10px;
 	}
 	.skills-heading {
 		position: relative;
 		top: 30px;
+		margin-bottom: 15px;
 	}
 	/*Max 414*/
 	
