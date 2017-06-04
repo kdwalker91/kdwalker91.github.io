@@ -144,7 +144,7 @@
 	}
 	.skills-heading {
 		position: relative;
-		top: 30px;
+		top: 25px;
 		margin-bottom: 15px;
 	}
 	/*Max 414*/
@@ -176,7 +176,7 @@
 		}
 		#resume {
 			position: relative;
-			top: 20px;
+			top: 0px;
 		}
 	}
 	/*Max 545*/
@@ -267,6 +267,13 @@
 		}
 		#skills-small-device,
 		.skills-heading {
+			display: none;
+		}
+	}
+	/*MIN DISPLAY WIDTH 1001PX*/
+	
+	@media screen and (min-width: 1001px) {
+		#skills-small-device {
 			display: none;
 		}
 	}
