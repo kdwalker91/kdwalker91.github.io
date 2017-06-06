@@ -1,7 +1,8 @@
 /*function myFunction() {
 }*/
 
-
+/*When user scrolls past a set point the progress
+bars will animate from left to right*/
 $(window).scroll(function () {
 	var y_scroll_pos = window.pageYOffset;
 	var scroll_pos_test = 150;
