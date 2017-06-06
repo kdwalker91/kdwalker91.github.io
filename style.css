@@ -60,19 +60,20 @@
 			transform: translateX(0px);
 		}
 	}
-	#skillset {
+	/**#skillset {
 		-webkit-animation-name: skillSlideRight;
-		/* Safari 4.0 - 8.0 */
+		/* Safari 4.0 - 8.0 
 		-webkit-animation-duration: 4s;
-		/* Safari 4.0 - 8.0 */
+		/* Safari 4.0 - 8.0 
 		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
+		/* Safari 4.0 - 8.0
 		animation-name: skillSlideRight;
 		animation-duration: 4.5s;
 		animation-delay: 0s;
 		top: 30px;
 		font-size: 1.2em;
-	}
+	}**/
+	
 	@keyframes skillSlideRight {
 		0% {
 			transform: translateX(2500px);
@@ -115,6 +116,10 @@
 		background-color: #c2c4c4;
 		width: 100%;
 		margin-right: 200px;
+	}
+	.progress.active .progress-bar {
+		-webkit-transition: none !important;
+		transition: none !important;
 	}
 	tr>td {
 		font-size: 1.25em;

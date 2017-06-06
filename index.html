@@ -14,6 +14,7 @@
 	<link rel="icon" href="k.png">
 	<!-- save for iphone icon homescreen-->
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon114.png" />
+
 </head>
 
 
@@ -38,6 +39,7 @@
 			</div>
 		</div>
 	</div>
+	<button id="click" onclick="myFunction()">Click Me</button>
 	<!--DISPLAY ON SMALL DEVICES-->
 	<div class="container" id="skills-small-device">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -133,11 +135,16 @@
 					<tr>
 						<td>HTML</td>
 						<td>
-							<div class="progress">
+							<div class="progress-container">
+								<div class="progress active">
+									<div class="progress-bar progress-bar-success bar1" style="width:0%"></div>
+								</div>
+							</div>
+							<!--<div class="progress">
 								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
 									<span class="sr-only">90% Complete</span>
 								</div>
-							</div>
+							</div>-->
 						</td>
 					</tr>
 					<tr>
@@ -322,6 +329,7 @@
 			<p>Kenneth W. Copyright 2017</p>
 		</nav>
 	</footer>
+	<script src="script.js"></script>
 </body>
 
 </html>
