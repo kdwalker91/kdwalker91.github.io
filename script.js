@@ -1,6 +1,15 @@
-function myFunction() {
-	$(".bar1").delay(500).animate({
-		width: "70%"
-	}, 2500);
+/*function myFunction() {
+}*/
 
-}
+
+$(window).scroll(function () {
+	var y_scroll_pos = window.pageYOffset;
+	var scroll_pos_test = 150;
+	// set to whatever you want it to be
+
+	if (y_scroll_pos > scroll_pos_test) {
+		$(".bar1").animate({
+			width: "70%"
+		}, 2500);
+	}
+});
