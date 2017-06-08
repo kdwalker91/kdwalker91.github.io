@@ -261,6 +261,9 @@
 		.skills-heading {
 			display: none;
 		}
+		#skillset {
+			margin-top: 15px;
+		}
 	}
 	/* Footer */
 	
