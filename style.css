@@ -1,286 +1,312 @@
 	html,
 	body {
-		height: 100%;
-		width: 100%;
-		font-family: 'Merriweather', serif;
+	    height: 100%;
+	    width: 100%;
+	    font-family: 'Merriweather', serif;
+	    background-color: #EBEBEB;
 	}
+	
 	img {
-		position: relative;
-		width: 17%;
-		display: block;
-		margin: auto;
-		border-radius: 9999px;
-		top: 20px;
-		/* Start of Animation */
-		-webkit-animation-name: imageDrop;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 4s;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
-		animation-name: imageDrop;
-		animation-timing-function: ease-out;
-		animation-duration: 3s;
-		animation-delay: 0s;
+	    position: relative;
+	    width: 17%;
+	    display: block;
+	    margin: auto;
+	    border-radius: 9999px;
+	    top: 20px;
+	    /* Start of Animation */
+	    -webkit-animation-name: imageDrop;
+	    /* Safari 4.0 - 8.0 */
+	    -webkit-animation-duration: 4s;
+	    /* Safari 4.0 - 8.0 */
+	    -webkit-animation-delay: 0s;
+	    /* Safari 4.0 - 8.0 */
+	    animation-name: imageDrop;
+	    animation-timing-function: ease-out;
+	    animation-duration: 3s;
+	    animation-delay: 0s;
 	}
+	
 	@keyframes imageDrop {
-		0% {
-			top: -300px;
-		}
-		100% {
-			top: 20px;
-		}
+	    0% {
+	        top: -300px;
+	    }
+	    100% {
+	        top: 20px;
+	    }
 	}
+	
 	@-webkit-keyframes imageDrop {
-		0% {
-			top: -300px;
-		}
-		100% {
-			top: 20px;
-		}
+	    0% {
+	        top: -300px;
+	    }
+	    100% {
+	        top: 20px;
+	    }
 	}
+	
 	.about {
-		-webkit-animation-name: about;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 4s;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
-		animation-name: about;
-		animation-duration: 3.5s;
-		animation-delay: 0s;
-		top: 30px;
-		font-size: 1.2em;
+	    -webkit-animation-name: about;
+	    /* Safari 4.0 - 8.0 */
+	    -webkit-animation-duration: 4s;
+	    /* Safari 4.0 - 8.0 */
+	    -webkit-animation-delay: 0s;
+	    /* Safari 4.0 - 8.0 */
+	    animation-name: about;
+	    animation-duration: 3.5s;
+	    animation-delay: 0s;
+	    top: 30px;
+	    font-size: 1.2em;
 	}
+	
 	@keyframes about {
-		0% {
-			transform: translateX(-1500px);
-		}
-		100% {
-			transform: translateX(0px);
-		}
+	    0% {
+	        transform: translateX(-1500px);
+	    }
+	    100% {
+	        transform: translateX(0px);
+	    }
 	}
+	
 	#resume {
-		position: relative;
-		margin-top: 20px;
+	    position: relative;
+	    margin-top: 20px;
 	}
+	
 	#skillset {
-		position: relative;
+	    position: relative;
+	    background-color: rgba(191, 189, 193, 0.25);
+	    top: 1em;
 	}
+	
 	h1 {
-		text-align: center;
-		font-size: 2em;
+	    text-align: center;
+	    font-size: 2em;
 	}
+	
 	.table {
-		width: 100%;
-		position: relative;
-		margin: 0 auto;
+	    width: 100%;
+	    position: relative;
+	    margin: 0 auto;
 	}
+	
 	.companyName {
-		font-weight: bold;
-		font-size: 1.85em;
+	    font-weight: bold;
+	    font-size: 1.85em;
 	}
+	
 	.jobTitle {
-		font-style: italic;
-		font-size: 1.55em;
+	    font-style: italic;
+	    font-size: 1.55em;
 	}
+	
 	.date {
-		position: relative;
-		text-align: right;
-		top: -76px;
-		font-size: 1.5em;
+	    position: relative;
+	    text-align: right;
+	    top: -76px;
+	    font-size: 1.5em;
 	}
+	
 	.progress {
-		background-color: #c2c4c4;
-		width: 100%;
-		margin-right: 200px;
+	    background-color: #c2c4c4;
+	    width: 100%;
+	    margin-right: 200px;
 	}
+	
 	.progress.active .progress-bar {
-		-webkit-transition: none !important;
-		transition: none !important;
+	    -webkit-transition: none !important;
+	    transition: none !important;
 	}
+	
 	tr>td {
-		font-size: 1.25em;
+	    font-size: 1.25em;
 	}
+	
 	h3 {
-		font-size: 1.25em;
+	    font-size: 1.25em;
 	}
+	
 	hr {
-		display: block;
-		height: 1px;
-		border: 0;
-		border-top: 1px solid black;
-		margin: 1em 0;
-		padding: 0;
+	    display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid black;
+	    margin: 1em 0;
+	    padding: 0;
 	}
+	
 	td {
-		text-align: center;
+	    text-align: center;
 	}
+	
 	#portfolio-head {
-		position: relative;
-		top: 25px;
+	    position: relative;
+	    top: 25px;
 	}
+	
 	.skills-heading {
-		position: relative;
-		top: 25px;
-		margin-bottom: 15px;
+	    position: relative;
+	    top: 25px;
+	    margin-bottom: 15px;
 	}
 	/*Max 414*/
 	
 	@media screen and (max-width: 414px) {
-		img {
-			width: 35%;
-			margin: 0 auto;
-			display: block;
-			position: relative;
-			top: 15px;
-		}
-		.companyName {
-			font-size: 1.2em;
-		}
-		.jobTitle,
-		.date {
-			font-size: 1em;
-			text-align: left;
-		}
-		.date {
-			top: 5px;
-		}
-		#skillset {
-			display: none;
-		}
-		.about {
-			top: 50px;
-		}
-		#resume {
-			position: relative;
-			top: 0px;
-		}
-		h3 {
-			font-size: 1.15em;
-		}
+	    img {
+	        width: 35%;
+	        margin: 0 auto;
+	        display: block;
+	        position: relative;
+	        top: 15px;
+	    }
+	    .companyName {
+	        font-size: 1.2em;
+	    }
+	    .jobTitle,
+	    .date {
+	        font-size: 1em;
+	        text-align: left;
+	    }
+	    .date {
+	        top: 5px;
+	    }
+	    #skillset {
+	        display: none;
+	    }
+	    .about {
+	        top: 50px;
+	    }
+	    #resume {
+	        position: relative;
+	        top: 0px;
+	    }
+	    h3 {
+	        font-size: 1.15em;
+	    }
 	}
 	/*Max 545*/
 	
 	@media (max-width: 545px) {
-		.companyName {
-			font-size: 1.25em;
-		}
-		.jobTitle,
-		.date {
-			position: relative;
-			top: 3px;
-			text-align: left;
-			font-size: 1.15em;
-		}
-		#skillset {
-			display: none;
-		}
-		.about {
-			position: relative;
-			font-size: 1.15em;
-		}
-		#resume {
-			position: relative;
-			margin-top: 20px;
-		}
+	    .companyName {
+	        font-size: 1.25em;
+	    }
+	    .jobTitle,
+	    .date {
+	        position: relative;
+	        top: 3px;
+	        text-align: left;
+	        font-size: 1.15em;
+	    }
+	    #skillset {
+	        display: none;
+	    }
+	    .about {
+	        position: relative;
+	        font-size: 1.15em;
+	    }
+	    #resume {
+	        position: relative;
+	        margin-top: 20px;
+	    }
 	}
 	/*Max 680 Min 415*/
 	
 	@media (max-width: 680px) and (min-width: 415px) {
-		.companyName {
-			font-size: 1.25em;
-		}
-		.jobTitle,
-		.date {
-			position: relative;
-			top: 3px;
-			text-align: left;
-			font-size: 1.15em;
-		}
-		img {
-			width: 120px;
-			margin: 0 auto;
-			display: block;
-			position: relative;
-			top: 15px;
-		}
-		.about {
-			position: relative;
-			font-size: 1.15em;
-			top: 50px;
-			margin: 0 auto;
-		}
-		#skillset {
-			display: none;
-		}
-		#resume {
-			position: relative;
-			top: 20px;
-		}
+	    .companyName {
+	        font-size: 1.25em;
+	    }
+	    .jobTitle,
+	    .date {
+	        position: relative;
+	        top: 3px;
+	        text-align: left;
+	        font-size: 1.15em;
+	    }
+	    img {
+	        width: 120px;
+	        margin: 0 auto;
+	        display: block;
+	        position: relative;
+	        top: 15px;
+	    }
+	    .about {
+	        position: relative;
+	        font-size: 1.15em;
+	        top: 50px;
+	        margin: 0 auto;
+	    }
+	    #skillset {
+	        display: none;
+	    }
+	    #resume {
+	        position: relative;
+	        top: 20px;
+	    }
 	}
 	/*Max 1000 Min 681*/
 	
 	@media screen and (max-width: 1000px) and (min-width: 681px) {
-		img {
-			width: 20%;
-			margin: 0 auto;
-			display: block;
-		}
-		.companyName {
-			font-size: 1.6em;
-		}
-		.jobTitle,
-		.date {
-			font-size: 1.25em;
-		}
-		.date {
-			position: relative;
-			top: -60px;
-		}
-		.about {
-			position: relative;
-			font-size: 1.2em;
-		}
-		#skillset {
-			margin-top: 20px;
-		}
-		#resume {
-			position: relative;
-			top: 20px;
-		}
-		#skills-small-device,
-		.skills-heading {
-			display: none;
-		}
+	    img {
+	        width: 20%;
+	        margin: 0 auto;
+	        display: block;
+	    }
+	    .companyName {
+	        font-size: 1.6em;
+	    }
+	    .jobTitle,
+	    .date {
+	        font-size: 1.25em;
+	    }
+	    .date {
+	        position: relative;
+	        top: -60px;
+	    }
+	    .about {
+	        position: relative;
+	        font-size: 1.2em;
+	    }
+	    #skillset {
+	        margin-top: 20px;
+	    }
+	    #resume {
+	        position: relative;
+	        top: 20px;
+	    }
+	    #skills-small-device,
+	    .skills-heading {
+	        display: none;
+	    }
 	}
 	/*MIN DISPLAY WIDTH 1001PX*/
 	
 	@media screen and (min-width: 1001px) {
-		#skills-small-device,
-		.skills-heading {
-			display: none;
-		}
-		#skillset {
-			margin-top: 15px;
-		}
+	    #skills-small-device,
+	    .skills-heading {
+	        display: none;
+	    }
+	    #skillset {
+	        margin-top: 15px;
+	    }
 	}
 	/* Footer */
 	
 	footer {
-		width: 100%;
-		height: 60px;
-		position: relative;
-		top: 80px;
+	    width: 100%;
+	    height: 60px;
+	    position: relative;
+	    top: 80px;
+	    background-color: rgba(82, 72, 156, 0.77);
 	}
+	
 	nav {
-		position: relative;
-		top: 20px;
-		text-align: center;
-		font-family: 'Merriweather', serif;
-		font-size: 1em;
+	    position: relative;
+	    top: 20px;
+	    text-align: center;
+	    font-family: 'Merriweather', serif;
+	    font-size: 1em;
 	}
+	
 	p {
-		position: relative;
-		margin: 0 auto;
+	    position: relative;
+	    margin: 0 auto;
 	}
