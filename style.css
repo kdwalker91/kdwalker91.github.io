@@ -1,6 +1,5 @@
 	html,
 	body {
-		height: 100%;
 		width: 100%;
 		font-family: 'Merriweather', serif;
 		background-color: #EBEBEB;
@@ -19,11 +18,16 @@
 		margin: 0;
 		font-size: 1.65em;
 		padding: 10px;
+		list-style-type: none;
+		text-decoration: none;
 	}
 	ul a {
 		color: lightgray;
+		list-style-type: none;
+		text-decoration: none;
 	}
 	a:hover {
+		list-style-type: none;
 		text-decoration: none;
 		color: white;
 	}
@@ -32,7 +36,7 @@
 		width: 17%;
 		display: block;
 		margin: auto;
-		border-radius: 100%;
+		border-radius: 1%;
 		top: 20px;
 		/* Start of Animation */
 		-webkit-animation-name: imageDrop;
@@ -196,7 +200,7 @@
 			display: none;
 		}
 		.about {
-			top: 50px;
+			top: 25px;
 		}
 		#resume {
 			position: relative;
@@ -224,11 +228,17 @@
 		}
 		.about {
 			position: relative;
-			font-size: 1.15em;
+			font-size: 1.65em;
 		}
 		#resume {
 			position: relative;
 			margin-top: 20px;
+		}
+		.skills-heading {
+			margin-top: 50px;
+		}
+		.about.intro {
+			margin: 0px;
 		}
 	}
 	/*Max 680 Min 415*/
@@ -263,6 +273,9 @@
 		#resume {
 			position: relative;
 			top: 20px;
+		}
+		.skills-heading {
+			margin-top: 50px;
 		}
 	}
 	/*Max 1000 Min 681*/
@@ -330,4 +343,18 @@
 	p {
 		position: relative;
 		margin: 0 auto;
+	}
+	@media screen and (min-width: 590px) {
+		.pos-f-t {
+			display: none;
+		}
+		#navi {
+			font-size: 5px;
+			color: black;
+		}
+	}
+	@media screen and (max-width: 590px) {
+		#navigation {
+			display: none;
+		}
 	}
