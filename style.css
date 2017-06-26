@@ -9,18 +9,18 @@
 		width: 17%;
 		display: block;
 		margin: auto;
-		border-radius: 9999px;
+		border-radius: 100%;
 		top: 20px;
 		/* Start of Animation */
 		-webkit-animation-name: imageDrop;
 		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 4s;
+		-webkit-animation-duration: 1s;
 		/* Safari 4.0 - 8.0 */
 		-webkit-animation-delay: 0s;
 		/* Safari 4.0 - 8.0 */
 		animation-name: imageDrop;
 		animation-timing-function: ease-out;
-		animation-duration: 3s;
+		animation-duration: 1.5s;
 		animation-delay: 0s;
 	}
 	@keyframes imageDrop {
@@ -47,10 +47,21 @@
 		-webkit-animation-delay: 0s;
 		/* Safari 4.0 - 8.0 */
 		animation-name: about;
-		animation-duration: 3.5s;
+		animation-duration: 1.75s;
 		animation-delay: 0s;
-		top: 30px;
-		font-size: 1.2em;
+		margin-top: 20px;
+		font-size: 1.5em;
+		line-height: 1.5;
+	}
+	.about.intro {
+		text-align: center;
+		margin-top: 25px;
+		font-size: 2em;
+	}
+	.intro-2 {
+		text-align: center;
+		margin-top: 10px;
+		font-size: 2em;
 	}
 	@keyframes about {
 		0% {
