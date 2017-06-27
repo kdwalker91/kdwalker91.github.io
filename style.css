@@ -19,6 +19,12 @@ p {
 
 /*Header/Navigation*/
 
+.hamburger-label {
+    font-weight: 600;
+    display: block;
+    color: black;
+}
+
 #navigation-menu {
     text-align: center;
     margin: 0 auto;
@@ -154,9 +160,6 @@ img {
 .about-para-two,
 .about-para-one {
     margin-top: 15px;
-}
-
-.about-para-one {
     text-indent: 50px;
 }
 
@@ -259,7 +262,7 @@ p a:hover {
 
 /*Media Queries*/
 
-@media (max-width: 545px)
+@media (max-width: 645px)
 /*Max 545*/
 
 {
@@ -278,8 +281,14 @@ p a:hover {
         margin: 0 auto;
         float: none;
     }
+    .job-description {
+        text-align: center;
+        position: relative;
+        margin-top: 15px;
+        font-size: 1.85em;
+    }
     h1#skills {
-        margin-top: 10px;
+        margin-top: 15px;
     }
     #resume {
         position: relative;
@@ -316,6 +325,23 @@ p a:hover {
     }
     #navigation-menu {
         display: none;
+    }
+    .footer-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/*HAMBURGER NAV*/
+
+@media screen and (min-width: 645px) {
+    .pos-f-t {
+        display: none;
+    }
+    #hamburger-navigation {
+        font-size: 5px;
+        color: black;
     }
 }
 
@@ -419,19 +445,3 @@ margin-top: 15px;
 }
 }
 */
-
-@media screen and (min-width: 590px) {
-    .pos-f-t {
-        display: none;
-    }
-    #hamburger-navigation {
-        font-size: 5px;
-        color: black;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    #navigation {
-        display: none;
-    }
-}
