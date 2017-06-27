@@ -2,25 +2,35 @@
 <html lang="en">
 
 <head>
-	<title>Kenneth</title>
+	<title>Kenneth | Front-End Developer</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--BOOTSTRAP-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!--CUSTOM CSS-->
 	<link rel="stylesheet" href="style.css">
+	
+	<!--GOOGLE FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	
 	<!-- PNG Favicon -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+	
 	<!-- save for iphone icon homescreen-->
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon114.png">
+	
 	<!-- Custom Burgers -->
 	<link rel="stylesheet" href="hamburgers-master/dist/hamburgers.css">
 </head>
 
 <body>
+	<!--NAVIGATION-->
 	<header id="home">
-		<nav id="navigation">
+		<nav id="navigation-menu">
 			<ul>
 				<a href="#home">
 					<li>Home</li>
@@ -28,7 +38,7 @@
 				<a href="#aboutme">
 					<li>About</li>
 				</a>
-				<a href="#skillset">
+				<a href="#skills">
 					<li>Skills</li>
 				</a>
 				<a href="#resume">
@@ -39,6 +49,8 @@
 				</a>
 			</ul>
 		</nav>
+		
+		<!--TOGGLE MENU-->
 		<div class="pos-f-t">
 			<nav class="navbar text-center">
 				<div class="container-fluid">
@@ -51,37 +63,40 @@
 					</div>
 				</div>
 			</nav>
-			<div class="collapse" id="navi">
+			<div class="collapse" id="hamburger-navigation">
 				<div class="bg-inverse p-4">
-					<a href="#home"><h1 class="text-white">Home</h1></a>
-					<a href="#about"><h1 class="text-white">About</h1></a>
-					<a href="#skills-small-device"><h1 class="text-white">Skills</h1></a>
-					<a href="#resume"><h1 class="text-white">Resume</h1></a>
-					<a href="#contact"><h1 class="text-white">Contact</h1></a>
+					<a href="#home"><h1>Home</h1></a>
+					<a href="#aboutme"><h1>About</h1></a>
+					<a href="#skills"><h1>Skills</h1></a>
+					<a href="#resume"><h1>Resume</h1></a>
+					<a href="#contact"><h1>Contact</h1></a>
 				</div>
 			</div>
 		</div>
 	</header>
+	
+	<!--ABOUT ME-->
 	<div class="container" id="aboutme">
 		<div class="row">
-			<img src="IMG_1902_copy.png">
+			<p class="name-text">Hello, my name is Kenneth.</p>
+			<p class="job-description">I am a Front End Web Developer</p>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="row">
-					<p class="about intro">Kenneth</p>
-					<p class="about intro-2">Front End Web Developer</p>
-					<p class="about col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						I enjoy creating things from scratch but I also have a passion for overhauling out of date sites and bringing them up to date. After graduating from the University of Central Oklahoma with two internships at Walmart Corporate in their software development department. I turned my attention temporarily to project management to have a stronger sense of planning for future projects. I am currently expanding my web technology knowledge using
+					<img src="IMG_1902_copy.png">
+					<p class="about about-para-one col-lg-9 col-md-9 col-sm-12 col-xs-12">
+						I enjoy writing code from a blank canvas but I also enjoy reviews code from others to learn from a different perspective. I graduated from the University of Central Oklahoma with two internships at Walmart Corporate, in their software development department. I turned my attention temporarily to project management to have a stronger sense of planning for future self-projects. I am currently expanding my web technology knowledge using 
 						<a href="https://www.lynda.com">Lynda.com.</a>
 					</p>
-					<p class="about col-lg-12 col-md-12 col-sm-12 col-xs-12">When I’m not learning or prgramming I’m spending time with my family, watching basketball, reading, or playing video games.
+					<p class="about about-para-two col-lg-9 col-md-9 col-sm-12 col-xs-12">When I’m not learning or prgramming I’m spending time with my family, watching basketball, reading, or playing video games.
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--DISPLAY ON SMALL DEVICES-->
-	<h1 class="skills-heading">Skills</h1>
-	<div class="container" id="skills-small-device">
+	
+	<!--SKILLS SECTION-->
+	<h1 class="skills-heading" id="skills">Skills</h1>
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 				<section>
@@ -179,154 +194,21 @@
 		</div>
 	</div>
 
-	<!--DISPLAY ON FULL SIZED BROWSERS-->
-	<div class="container" id="skillset">
-		<div class="table-responsive">
-			<h1>Skills</h1>
-			<table class="table">
-				<tbody>
-					<tr>
-						<td>HTML</td>
-						<td>
-							<div class="progress-container">
-								<div class="progress active">
-									<div class="progress-bar progress-bar-success bars" style="width:0%"></div>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>CSS</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success " role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width:83%">
-									<span class="sr-only">83% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>JavaScript</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-									<span class="sr-only">75% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>jQuery</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-									<span class="sr-only">70% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Angular 1</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-									<span class="sr-only">65% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>AGILE</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-									<span class="sr-only">95% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Scrum</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width:97%">
-									<span class="sr-only">97% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>C#</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-									<span class="sr-only">60% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>SDLC</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width:89%">
-									<span class="sr-only">89% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Requirement Gathering</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width:92%">
-									<span class="sr-only">92% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Communication</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-									<span class="sr-only">100% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Bootstrap</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width:83%">
-									<span class="sr-only">83% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>Git</td>
-						<td>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-									<span class="sr-only">70% Complete</span>
-								</div>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
 	<!--RESUME SECTION-->
 	<div class="container" id="resume">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1 id="res-title">Resume</h1>
+				<h1 id="resume-title">Resume</h1>
 				<p class="companyName">University of Central Oklahoma</p>
 				<p class="jobTitle">Bachelor's in Business Administration: Management Information Systems</p>
 				<p class="date">August 2012 - May 2016</p>
+				<p class="description">
+					I was a part of the AITP club where meetings were held regularly to discuss post-grad employment opportunities. I created C# applications as a more intuitive way to study as well as made honor roll on numerous occasions. <br><br>
+					Relevant Coursework:<br>
+					
+					Programming for Business Applications, Management Information Systems, Business Communication, Business Statistics, Principles of Marketing, International Marketing, Microeconomics, Macroeconomics, Business Problem Solving with Software, Business Application Management, MySQL Server 
+
+				</p>
 			</div>
 		</div>
 		<!-- Horizontal Line -->
@@ -336,6 +218,9 @@
 				<p class="companyName">JTLogic</p>
 				<p class="jobTitle">.NET Full Stack Developer - Contract</p>
 				<p class="date">April 2017 - May 2017</p>
+				<p class="description">
+					I started off writing technical documentation to learn the software. I quickly started writing front-end code mainly Angular 1, jQuery, JavaScript, and CSS3. Next, I wrote LINQ statements to retrieve and transmit data from the client to the server and vice versa. By the end of the contract I had created modules and data-binding events in ASP.NET and Angular 1 all while continuing technical and user documentation.
+				</p>
 			</div>
 		</div>
 		<!-- Horizontal Line -->
@@ -345,8 +230,16 @@
 				<p class="companyName">Oklahoma Heart</p>
 				<p class="jobTitle">SCRUM Master - Contract</p>
 				<p class="date">October 2016 - March 2017</p>
+				<p class="description">
+					I came to Oklahoma Heart as a Scrum Master given my previous experience. I gathered requirements for the development team to free them of scope creep. I communicated regularly between the product owners and developers to improve and or create new applications. I planned sprints and created user stories weekly as well as facilitated daily stand-ups.  I used Atlassian products as the go to software such as JIRA, Confluence, and Bitbucket for managing tickets, users, sprints, and permissions. I also, completed a three-day course on Cerner’s programming language (Cerner Command Language). 
+				</p>
 			</div>
 		</div>
+		
+		
+		
+		
+		
 		<!-- Horizontal Line -->
 		<hr>
 		<div class="row">
@@ -354,6 +247,21 @@
 				<p class="companyName">Walmart Corporate</p>
 				<p class="jobTitle">SCRUM Master/Front-end Web Developer - Internship</p>
 				<p class="date">June 2016 - August 2016</p>
+				<p class="description">
+					My group and I worked on a project created by Capital One called <a href="https://www.github.com/capitalone/Hygieia">Hygieia</a>. It is a dev ops dashboard that uses continuous development continuous integration. My task was to create custom widgets to the front-end to measure code reliability. After that I become scrum master of my group for the remainder of the internship as well as learned how the back-end was used in our project. 
+				</p>
+			</div>
+		</div>
+		<!-- Horizontal Line -->
+		<hr>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p class="companyName">University of Central Oklahoma</p>
+				<p class="jobTitle">Marketing Research Associate</p>
+				<p class="date">April 2014 - May 2016</p>
+				<p class="description">
+					I came to Oklahoma Heart as a Scrum Master given my previous experience. I gathered requirements for the development team to free them of scope creep. I communicated regularly between the product owners and developers to improve and or create new applications. I planned sprints and created user stories weekly as well as facilitated daily stand-ups.  I used Atlassian products as the go to software such as JIRA, Confluence, and Bitbucket for managing tickets, users, sprints, and permissions. I also, completed a three-day course on Cerner’s programming language (Cerner Command Language). 
+				</p>
 			</div>
 		</div>
 		<!-- Horizontal Line -->
@@ -363,23 +271,42 @@
 				<p class="companyName">Walmart Corporate</p>
 				<p class="jobTitle">Front-end Web Developer - Internship</p>
 				<p class="date">June 2015 - August 2015</p>
+				<p class="description">
+					I came to Oklahoma Heart as a Scrum Master given my previous experience. I gathered requirements for the development team to free them of scope creep. I communicated regularly between the product owners and developers to improve and or create new applications. I planned sprints and created user stories weekly as well as facilitated daily stand-ups.  I used Atlassian products as the go to software such as JIRA, Confluence, and Bitbucket for managing tickets, users, sprints, and permissions. I also, completed a three-day course on Cerner’s programming language (Cerner Command Language). 
+				</p>
+			</div>
+		</div>
+		<!-- Horizontal Line -->
+		<hr>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p class="companyName">StagParkway</p>
+				<p class="jobTitle">Quality Control - Internship</p>
+				<p class="date">May 2014 - August 2014</p>
+				<p class="description">
+					I came to Oklahoma Heart as a Scrum Master given my previous experience. I gathered requirements for the development team to free them of scope creep. I communicated regularly between the product owners and developers to improve and or create new applications. I planned sprints and created user stories weekly as well as facilitated daily stand-ups.  I used Atlassian products as the go to software such as JIRA, Confluence, and Bitbucket for managing tickets, users, sprints, and permissions. I also, completed a three-day course on Cerner’s programming language (Cerner Command Language). 
+				</p>
 			</div>
 		</div>
 	</div>
 
+	<!--CONTACT SECTION-->
 	<div class="container" id="contact">
 		<h1 id="contact-head">Contact</h1>
 		<p id="email">Email: <a href="mailto:kenneth.d.walker91@gmail.com?Subject=Hello%20again" target="_top">kenneth.d.walker91@gmail.com</a></p>
 	</div>
 
-	<footer class="footer">
-		<nav class="nav">
-			<p>Copyright&copy; 2017 - All rights reserved</p>
+	<!--FOOTER SECTION-->
+	<footer>
+		<nav class="footer-nav">
+			<p id="foot-text">Copyright&copy; 2017 Kenneth Walker</p>
+			<p id="lynda-text">I use <a class="footer-links" href="https://www.lynda.com">Lynda.com</a> for most of my training.</p>
+			<p id="social-media">You can find me on <a class="footer-links" href="https://www.linkedin.com/in/kenneth-walker-a71079b6/">Linkedin.</a></p>
 		</nav>
 	</footer>
 	<script src="script.js"></script>
 
-	<!-- Hamburger jQuery -->
+	<!-- Hamburger Menu jQuery -->
 	<script>
 		// Look for .hamburger
 		var hamburger = document.querySelector(".hamburger");

@@ -1,363 +1,373 @@
-		html,
-	body {
-		width: 100%;
-		font-family: 'Merriweather', serif;
-		background-color: #EBEBEB;
+/*Body*/
+body {
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	background-color: #EBEBEB;
+}
+h1 {
+	text-align: center;
+	font-size: 2.8em;
+}
+p {
+	position: relative;
+	margin: 0 auto;
+}
+
+/*Header/Navigation*/
+#navigation-menu {
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(82, 72, 156, .8);
+}
+li {
+	display: inline-block;
+	font-size: 1.65em;
+	padding: 10px;
+}
+ul a {
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #d8d5de;
+	opacity: .5;
+}
+
+
+
+/*About*/
+img {
+	position: relative;
+	top: 20px;
+	width: 17.5%;
+	display: block;
+	float: left;
+/*	margin: 0 auto;*/
+	border-radius: 5%;
+	/* Start of Animation */
+	-webkit-animation-name: imageDrop;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 1s;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-delay: 0s;
+	/* Safari 4.0 - 8.0 */
+	animation-name: imageDrop;
+	animation-timing-function: ease-out;
+	animation-duration: 1.5s;
+	animation-delay: 0s;
+}
+
+/*Animation for Image Section*/
+@keyframes imageDrop {
+	0% {
+		top: -300px;
 	}
-	#navigation {
-		text-align: center;
-		margin: 0 auto;
-		background-color: rgba(82, 72, 156, .8);
-	}
-	ul {
-		position: relative;
-		list-style-type: none;
-	}
-	li {
-		display: inline-block;
-		margin: 0;
-		font-size: 1.65em;
-		padding: 10px;
-		list-style-type: none;
-		text-decoration: none;
-	}
-	ul a {
-		color: lightgray;
-		list-style-type: none;
-		text-decoration: none;
-	}
-	a:hover {
-		list-style-type: none;
-		text-decoration: none;
-		color: white;
-	}
-	img {
-		position: relative;
-		width: 17%;
-		display: block;
-		margin: auto;
-		border-radius: 1%;
+	100% {
 		top: 20px;
-		/* Start of Animation */
-		-webkit-animation-name: imageDrop;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 1s;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
-		animation-name: imageDrop;
-		animation-timing-function: ease-out;
-		animation-duration: 1.5s;
-		animation-delay: 0s;
 	}
-	@keyframes imageDrop {
-		0% {
-			top: -300px;
-		}
-		100% {
-			top: 20px;
-		}
+}
+@-webkit-keyframes imageDrop {
+	0% {
+		top: -300px;
 	}
-	@-webkit-keyframes imageDrop {
-		0% {
-			top: -300px;
-		}
-		100% {
-			top: 20px;
-		}
+	100% {
+		top: 20px;
 	}
-	.about {
-		-webkit-animation-name: about;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 4s;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
-		animation-name: about;
-		animation-duration: 1.75s;
-		animation-delay: 0s;
-		margin-top: 10px;
-		font-size: 1.5em;
-		line-height: 1.5;
+}
+
+
+/*About paragraph animation*/
+.about {
+	-webkit-animation-name: about;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-delay: 0s;
+	/* Safari 4.0 - 8.0 */
+	animation-name: about;
+	animation-duration: 1.75s;
+	animation-delay: 0s;
+	font-size: 1.5em;
+	line-height: 1.7;
+	position: relative;
+}
+
+
+/*Title animation*/
+.name-text, .job-description {
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+	font-size: 2.25em;
+}
+.name-text,
+.job-description {
+/*	text-align: center;*/
+	font-size: 1.75em;
+	-webkit-animation-name: about;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 2.5s;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-delay: 0s;
+	/* Safari 4.0 - 8.0 */
+	animation-name: about;
+	animation-duration: .5s;
+	animation-delay: 0s;
+}
+
+/*Animation for About Section*/
+@keyframes about {
+	0% {
+		transform: translateX(-1500px);
 	}
-	.about.intro {
-		text-align: center;
-		margin-top: 25px;
-		font-size: 2.25em;
+	100% {
+		transform: translateX(0px);
 	}
-	.intro-2 {
-		text-align: center;
-		margin-top: 0px;
-		font-size: 1.7em;
-		-webkit-animation-name: about;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-duration: 4s;
-		/* Safari 4.0 - 8.0 */
-		-webkit-animation-delay: 0s;
-		/* Safari 4.0 - 8.0 */
-		animation-name: about;
-		animation-duration: 2.5s;
-		animation-delay: 0s;
+}
+@-webkit-keyframes about {
+	0% {
+		transform: translateX(-1500px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+.about-para-two, .about-para-one {
+	margin-top: 15px;
+}
+
+
+
+/*Skills*/
+.progress {
+	background-color: #c2c4c4;
+	width: 100%;
+}
+.progress.active .progress-bar {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+/*Overrid the green color from bootstrap*/
+.progress-bar-success {
+	background-color: #695992;
+}
+
+
+/*Resume*/
+#resume {
+	position: relative;
+}
+
+.companyName {
+	font-weight: 500;
+	font-size: 1.95em;
+}
+.jobTitle {
+	font-style: italic;
+	font-size: 1.5em;
+}
+.date {
+	text-align: right;
+	bottom: 3em;
+	font-size: 1.45em;
+}
+.description {
+	font-size: 1.25em;
+	margin-top: -20px;
+}
+
+hr {
+	border-top: 3px solid black;
+	margin: 1em 0;
+}
+
+
+/*Contact*/
+#email {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+
+
+/*Footer*/
+footer {
+	width: 100%;
+	height: 190px;
+	position: relative;
+	top: 80px;
+	background-color: rgba(82, 72, 156, 0.77);
+}
+.footer-nav {
+	position: relative;
+	top: 20px;
+	margin-left: 50px;
+	font-family: 'Merriweather', serif;
+	font-size: 1.15em;
+	color: #fff;
+}
+#foot-text,
+#lynda-text {
+	margin-bottom: 30px;
+}
+.footer-links{
+	color: #fff;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #bcb7c9;
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 545px)
+/*Max 545*/
+{
+	img {
+		width: 35%;
+	}
+	#resume {
+		position: relative;
 		top: 0px;
 	}
-	@keyframes about {
-		0% {
-			transform: translateX(-1500px);
-		}
-		100% {
-			transform: translateX(0px);
-		}
+	h3 {
+		font-size: 1.15em;
+	}
+	.companyName {
+		font-size: 1.5em;
+	}
+	.jobTitle,
+	.date {
+		position: relative;
+		top: 3px;
+		text-align: left;
+		font-size: 1.15em;
+	}
+	.about {
+		position: relative;
+		font-size: 1.25em;
 	}
 	#resume {
 		position: relative;
 		margin-top: 20px;
 	}
-	#skillset {
-		position: relative;
-		background-color: rgba(191, 189, 193, 0.25);
-		top: 1em;
-	}
-	h1 {
-		text-align: center;
-		font-size: 2em;
-	}
-	.table {
-		width: 100%;
-		position: relative;
-		margin: 0 auto;
-	}
-	.companyName {
-		font-weight: bold;
-		font-size: 1.85em;
-	}
-	.jobTitle {
-		font-style: italic;
-		font-size: 1.55em;
-	}
-	.date {
-		position: relative;
-		text-align: right;
-		top: -76px;
-		font-size: 1.5em;
-	}
-	.progress {
-		background-color: #c2c4c4;
-		width: 100%;
-		margin-right: 200px;
-	}
-	.progress.active .progress-bar {
-		-webkit-transition: none !important;
-		transition: none !important;
-	}
-	tr>td {
-		font-size: 1.25em;
-	}
-	h3 {
-		font-size: 1.25em;
-	}
-	hr {
-		display: block;
-		height: 1px;
-		border: 0;
-		border-top: 1px solid black;
-		margin: 1em 0;
-		padding: 0;
-	}
-	td {
-		text-align: center;
-	}
-	#contact-head {
-		position: relative;
-		top: 25px;
-	}
 	.skills-heading {
-		position: relative;
-		top: 25px;
-		margin-bottom: 15px;
+		margin-top: 50px;
+	}
+	.about.intro {
+		margin: 0px;
 	}
 	#email {
-		top: 20px;
-		text-align: center;
-		font-size: 1.5em;
+		font-size: 1.12em;
 	}
-	/*Max 414*/
-	
-	@media screen and (max-width: 414px) {
-		img {
-			width: 35%;
-			margin: 0 auto;
-			display: block;
-			position: relative;
-			top: 15px;
-		}
-		.companyName {
-			font-size: 1.2em;
-		}
-		.jobTitle,
-		.date {
-			font-size: 1em;
-			text-align: left;
-		}
-		.date {
-			top: 5px;
-		}
-		#skillset {
-			display: none;
-		}
-		.about {
-			top: 25px;
-		}
-		#resume {
-			position: relative;
-			top: 0px;
-		}
-		h3 {
-			font-size: 1.15em;
-		}
-		#email {
-			font-size: 1em;
-		}
-		/*Max 545*/
-		@media (max-width: 545px) {
-			.companyName {
-				font-size: 1.25em;
-			}
-			.jobTitle,
-			.date {
-				position: relative;
-				top: 3px;
-				text-align: left;
-				font-size: 1.15em;
-			}
-			#skillset {
-				display: none;
-			}
-			.about {
-				position: relative;
-				font-size: 1.25em;
-			}
-			#resume {
-				position: relative;
-				margin-top: 20px;
-			}
-			.skills-heading {
-				margin-top: 50px;
-			}
-			.about.intro {
-				margin: 0px;
-			}
-		}
-		/*Max 680 Min 415*/
-		@media (max-width: 680px) and (min-width: 415px) {
-			.companyName {
-				font-size: 1.25em;
-			}
-			.jobTitle,
-			.date {
-				position: relative;
-				top: 3px;
-				text-align: left;
-				font-size: 1.15em;
-			}
-			img {
-				width: 120px;
-				margin: 0 auto;
-				display: block;
-				position: relative;
-				top: 15px;
-			}
-			.about {
-				position: relative;
-				font-size: 1.15em;
-				top: 50px;
-				margin: 0 auto;
-				text-align: justify;
-			}
-			#skillset {
-				display: none;
-			}
-			#resume {
-				position: relative;
-				top: 20px;
-			}
-			.skills-heading {
-				margin-top: 50px;
-			}
-		}
-		/*Max 1000 Min 681*/
-		@media screen and (max-width: 1000px) and (min-width: 681px) {
-			img {
-				width: 20%;
-				margin: 0 auto;
-				display: block;
-			}
-			.companyName {
-				font-size: 1.6em;
-			}
-			.jobTitle,
-			.date {
-				font-size: 1.25em;
-			}
-			.date {
-				position: relative;
-				top: -60px;
-			}
-			.about {
-				position: relative;
-				font-size: 1.2em;
-			}
-			#skillset {
-				margin-top: 20px;
-			}
-			#resume {
-				position: relative;
-				top: 20px;
-			}
-			#skills-small-device,
-			.skills-heading {
-				display: none;
-			}
-		}
-		/*MIN DISPLAY WIDTH 1001PX*/
-		@media screen and (min-width: 1001px) {
-			#skills-small-device,
-			.skills-heading {
-				display: none;
-			}
-			#skillset {
-				margin-top: 15px;
-			}
-		}
-		/* Footer */
-		footer {
-			width: 100%;
-			height: 60px;
-			position: relative;
-			top: 80px;
-			background-color: rgba(82, 72, 156, 0.77);
-		}
-		.nav {
-			position: relative;
-			top: 20px;
-			text-align: center;
-			font-family: 'Merriweather', serif;
-			font-size: 1em;
-		}
-		p {
-			position: relative;
-			margin: 0 auto;
-		}
-		@media screen and (min-width: 590px) {
-			.pos-f-t {
-				display: none;
-			}
-			#navi {
-				font-size: 5px;
-				color: black;
-			}
-		}
-		@media screen and (max-width: 590px) {
-			#navigation {
-				display: none;
-			}
-		}
+	#navigation {
+		display: none;
+	}
+}
+/*Max 680*/
+/*
+@media (max-width: 680px) {
+
+.companyName {
+font-size: 1.25em;
+}
+.jobTitle,
+.date {
+position: relative;
+top: 3px;
+text-align: left;
+font-size: 1.15em;
+}
+img {
+width: 120px;
+margin: 0 auto;
+display: block;
+position: relative;
+top: 15px;
+}
+.about {
+position: relative;
+font-size: 1.15em;
+top: 50px;
+margin: 0 auto;
+text-align: justify;
+}
+#skillset {
+display: none;
+}
+#resume {
+position: relative;
+top: 20px;
+}
+.skills-heading {
+margin-top: 50px;
+}
+
+}
+*/
+/*Max 1000 Min 681*/
+/*
+@media screen and (max-width: 1000px) and (min-width: 681px) {
+img {
+width: 20%;
+margin: 0 auto;
+display: block;
+}
+.companyName {
+font-size: 1.6em;
+}
+.jobTitle,
+.date {
+font-size: 1.25em;
+}
+.date {
+position: relative;
+top: -60px;
+}
+.about {
+position: relative;
+font-size: 1.2em;
+}
+#skillset {
+margin-top: 20px;
+}
+#resume {
+position: relative;
+top: 20px;
+}
+#skills-small-device,
+.skills-heading {
+display: none;
+}
+}
+*/
+/*MIN DISPLAY WIDTH 1001PX*/
+/*
+@media screen and (min-width: 1001px) {
+#skills-small-device,
+.skills-heading {
+display: none;
+}
+#skillset {
+margin-top: 15px;
+}
+}
+*/
+
+
+@media screen and (min-width: 590px) {
+	.pos-f-t {
+		display: none;
+	}
+	#hamburger-navigation {
+		font-size: 5px;
+		color: black;
+	}
+}
+@media screen and (max-width: 590px) {
+	#navigation {
+		display: none;
+	}
+}
