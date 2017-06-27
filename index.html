@@ -30,6 +30,44 @@
 <body>
     <!--NAVIGATION-->
     <header id="home">
+		 <!--TOGGLE MENU-->
+        <div class="pos-f-t">
+            <nav class="navbar text-center">
+                <div class="container-fluid">
+                    <div class="navbar-header ">
+                        <div class="hamburger-wrap">
+                            <button class="hamburger hamburger--elastic" tabindex="0" aria-label="Menu" aria-controls="navigation" aria-expanded="true" type="button" data-toggle="collapse" data-target="#hamburger-navigation">
+							<span class="hamburger-box">
+							<div class="hamburger-inner"></div>
+						</span>
+                                <span class="hamburger-label">Menu</span>
+						</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="collapse" id="hamburger-navigation">
+                <div class="bg-inverse p-4">
+                    <a href="#home" class="ham-nav">
+                        <p>Home</p>
+                    </a>
+                    <a href="#aboutme" class="ham-nav">
+                        <p>About</p>
+                    </a>
+                    <a href="#skills" class="ham-nav">
+                        <p>Skills</p>
+                    </a>
+                    <a href="#resume" class="ham-nav">
+                        <p>Resume</p>
+                    </a>
+                    <a href="#contact" class="ham-nav">
+                        <p>Contact</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+		
+		<!--Desktop Navigation-->
         <nav id="navigation-menu">
             <ul>
                 <a href="#home">
@@ -49,43 +87,6 @@
                 </a>
             </ul>
         </nav>
-
-        <!--TOGGLE MENU-->
-        <div class="pos-f-t">
-            <nav class="navbar text-center">
-                <div class="container-fluid">
-                    <div class="navbar-header ">
-                        <div class="hamburger-wrap">
-                            <button class="hamburger hamburger--elastic" tabindex="0" aria-label="Menu" aria-controls="navigation" aria-expanded="true" type="button" data-toggle="collapse" data-target="#hamburger-navigation">
-							<span class="hamburger-box">
-							<div class="hamburger-inner"></div>
-						</span>
-                                <span class="hamburger-label">Menu</span>
-						</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="collapse" id="hamburger-navigation">
-                <div class="bg-inverse p-4">
-                    <a href="#home">
-                        <h1>Home</h1>
-                    </a>
-                    <a href="#aboutme">
-                        <h1>About</h1>
-                    </a>
-                    <a href="#skills">
-                        <h1>Skills</h1>
-                    </a>
-                    <a href="#resume">
-                        <h1>Resume</h1>
-                    </a>
-                    <a href="#contact">
-                        <h1>Contact</h1>
-                    </a>
-                </div>
-            </div>
-        </div>
     </header>
 
     <!--ABOUT ME-->
