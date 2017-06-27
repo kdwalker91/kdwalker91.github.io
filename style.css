@@ -262,6 +262,13 @@ p a:hover {
 
 /*Media Queries*/
 
+@media (max-width: 330px) {
+    /*Change footer font size*/
+    .footer-nav {
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 645px)
 /*Max 545*/
 
