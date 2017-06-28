@@ -1,13 +1,13 @@
 .about,
 img {
-    -webkit-animation-delay: 0s;
-    position: relative
+-webkit-animation-delay: 0s;
+position: relative;
 }
 
 .progress,
 body,
 footer {
-    width: 100%
+width: 100%
 }
 
 #resume,
@@ -15,301 +15,478 @@ footer {
 .footer-nav,
 footer,
 img,
-p {
-    position: relative
+p,
+.contact,
+.relevant-courses{
+position: relative
 }
 
 .footer-nav,
 body {
-    font-family: Merriweather, serif
+font-family: Merriweather, serif
 }
 
 body {
-    background-color: #EBEBEB
+background-color: #EBEBEB
 }
 
 h1 {
-    text-align: center;
-    font-size: 2.8em
+text-align: center;
+font-size: 2.8em
 }
 
 p {
-    margin: 0 auto
+margin: 0 auto
 }
 
 .hamburger-label {
-    font-weight: 600;
-    display: block;
-    color: #000
+	font-weight: 600;
+	display: block;
+	color: #000;
+		text-transform: uppercase;
 }
 
 #navigation-menu {
-    text-align: center;
-    margin: 0 auto;
-    background-color: rgba(82, 72, 156, .8)
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(82, 72, 156, .8);
+	height: 100px;
 }
 
 li {
-    display: inline-block;
-    font-size: 1.65em;
-    padding: 10px
+display: inline-block;
+font-size: 1.65em;
+padding: 10px;
 }
-
+a li {
+	top: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
 ul a {
-    color: #FFF
+color: #FFF
 }
 
 a:hover {
-    text-decoration: none;
-    color: #d8d5de;
-    opacity: .5
+text-decoration: none;
+color: #d8d5de;
+opacity: .5
 }
 
 img {
-    top: 20px;
-    width: 17.5%;
-    display: block;
-    float: left;
-    border-radius: 5%;
-    -webkit-animation-name: imageDrop;
-    -webkit-animation-duration: 1s;
-    animation-name: imageDrop;
-    animation-timing-function: ease-out;
-    animation-duration: 1.5s;
-    animation-delay: 0s
+top: 20px;
+width: 17.5%;
+display: block;
+float: left;
+border-radius: 5%;
+-webkit-animation-name: imageDrop;
+-webkit-animation-duration: 2s;
+animation-name: imageDrop;
+animation-timing-function: ease-out;
+animation-duration: 2s;
+animation-delay: 0s
 }
 
 @keyframes imageDrop {
-    0% {
-        top: -300px
-    }
-    100% {
-        top: 20px
-    }
+	0% {
+		top: -300px
+	}
+	100% {
+		top: 20px
+	}
 }
 
 @-webkit-keyframes imageDrop {
-    0% {
-        top: -300px
-    }
-    100% {
-        top: 20px
-    }
+	0% {
+		top: -300px
+	}
+	100% {
+		top: 20px
+	}
 }
 
 .about {
-    -webkit-animation-name: about;
-    -webkit-animation-duration: 4s;
-    animation-name: about;
-    animation-duration: 1.75s;
-    animation-delay: 0s;
-    font-size: 1.5em;
-    line-height: 1.7
+	-webkit-animation-name: about;
+	-webkit-animation-duration: 2s;
+	animation-name: about;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	font-size: 1.5em;
+	line-height: 1.7
 }
 
 .job-description,
-.name-text {
-    text-align: center;
-    position: relative;
-    margin-top: 15px;
-    font-size: 1.75em;
-    -webkit-animation-name: about;
-    -webkit-animation-duration: 2.5s;
-    -webkit-animation-delay: 0s;
-    animation-name: about;
-    animation-duration: .5s;
-    animation-delay: 0s
-}
+.name-text {	
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+	font-size: 1.95em;
+/*
+	-webkit-animation-name: about;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 0s;
+	animation-name: about;
+	animation-duration: 9s;
+	animation-delay: 0s
+*/
+	}
 
 @keyframes about {
-    0% {
-        transform: translateX(-1500px)
-    }
-    100% {
-        transform: translateX(0)
-    }
+0% {
+	transform: translateX(-1400px)
+}
+100% {
+	transform: translateX(0)
+}
 }
 
 @-webkit-keyframes about {
-    0% {
-        transform: translateX(-1500px)
-    }
-    100% {
-        transform: translateX(0)
-    }
+0% {
+	transform: translateX(-1500px)
+}
+100% {
+	transform: translateX(0)
+}
 }
 
 .about-para-one,
 .about-para-two {
-    margin-top: 15px;
-    text-indent: 50px
+	margin-top: 15px;
+/*	text-indent: 50px*/
 }
-
+/*
+.about-para-two{
+	margin-bottom: 30px;
+}
+*/
 .progress {
-    background-color: #c2c4c4
+	background-color: #c2c4c4
 }
 
 .progress.active .progress-bar {
-    -webkit-transition: none!important;
-    transition: none!important
+-webkit-transition: none!important;
+transition: none!important
 }
 
 .progress-bar-success {
-    background-color: #695992
+background-color: #695992
 }
 
+.relevant-courses {
+	display: inline-block;
+	float: left;
+	font-size: .65em;
+	width: 420px;
+	margin: 0;
+	display: none;
+}
 .companyName {
-    font-weight: 500;
-    font-size: 1.95em
+font-weight: 500;
+font-size: 1.95em
 }
 
 .jobTitle {
-    font-style: italic;
-    font-size: 1.5em
+font-style: italic;
+font-size: 1.5em
 }
 
 .date {
-    text-align: right;
-    bottom: 3em;
-    font-size: 1.45em
+text-align: right;
+bottom: 3em;
+font-size: 1.45em
 }
 
 .description {
-    font-size: 1.25em;
-    margin-top: -20px
+	font-size: 1.25em;
+	margin-top: -20px;
+	display: none;
+	text-indent: 50px;
+	line-height: 2em;
 }
-
+button {
+	border-radius: 4px;
+	position: relative;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+.center-button{
+	text-align: center;
+}
 hr {
-    border-top: 3px solid #000;
-    margin: 1em 0
+border-top: 3px solid #000;
+margin: 1em 0
 }
 
 #email {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 20px
+text-align: center;
+font-size: 1.5em;
+margin-top: 20px;
 }
 
 footer {
-    height: 190px;
-    top: 80px;
-    background-color: rgba(82, 72, 156, .77)
+top: 100px;	
+height: 170px;
+background-color: rgba(82, 72, 156, .77)
 }
 
 .footer-nav {
-    top: 20px;
-    margin-left: 50px;
-    font-size: 1.15em;
-    color: #fff
+top: 30px;
+margin-left: 50px;
+font-size: 1.15em;
+color: #fff
 }
 
 #foot-text,
 #lynda-text {
-    margin-bottom: 30px
+margin-bottom: 30px
 }
 
 .footer-links {
-    color: #fff;
-    text-decoration: underline
+color: #fff;
+text-decoration: underline
 }
 
 p a:hover {
-    color: #bcb7c9
+color: #bcb7c9
 }
 
-@media (max-width:427px) {
-    .footer-nav {
-        font-size: 1.15em
-    }
+@media (max-width:480px) {
+.footer-nav {
+	font-size: 1.15em
+}
+.job-description {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.45em !important;
+}
+}
+
+@media (max-width:480px) {
+#hide-paragraph-1{
+	display: none;
+}
+.relevant-courses {
+	font-size: .60em;
+	margin: 0;
+	display: none;
+	line-height: 1em;
+	right: 0;
+}
+#resume,
+.about,
+.date,
+.job-description,
+.jobTitle {
+	position: relative
+}
+.navbar {
+	margin-bottom: 0
+}
+.navbar-header {
+	background-color: rgba(82, 72, 156, .77)
+}
+p.about.about-para-one {
+	margin-top: 30px;
+	position: relative;
+}
+img {
+	width: 35%;
+	margin: 0 auto;
+	float: none;
+}
+.job-description {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.85em
+}
+h1#skills {
+	margin-top: 15px
+}
+h1#resume-title {
+	margin-top: 10px
+}
+h3 {
+	font-size: 1.15em
+}
+p.description {
+	margin-top: 12px;
+	text-indent: 50px
+}
+.companyName {
+	font-size: 1.5em
+}
+.date,
+.jobTitle {
+	top: 3px;
+	text-align: left;
+	font-size: 1.15em
+}
+.about {
+	font-size: 1.25em
+}
+
+#email {
+	font-size: 1.3em
+}
+#navigation-menu {
+	display: none
+}
+.footer-nav {
+	margin-left: 0;
+	text-align: center
+}
+.ham-nav{
+	text-align: center;
+	padding: 3px 0px 0px 3px;
+	width: 100px;
+	font-size: 1.75em;
+	color: #695992;
+	text-transform: uppercase;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+	#hide-paragraph-1{
+		display: none;
+	}
+.relevant-courses {
+	font-size: .67em;
+	margin: 0;
+	display: none;
+	line-height: 1em;
+}
+	 #resume,
+	.about,
+	.date,
+	.job-description,
+	.jobTitle {
+		position: relative
+	}
+	.navbar {
+		margin-bottom: 0
+	}
+	.navbar-header {
+		background-color: rgba(82, 72, 156, .77);
+	}
+	p.about.about-para-one {
+		margin-top: 30px;
+		position: relative
+	}
+	img {
+		width: 35%;
+		margin: 0 auto;
+		float: none;
+	}
 	.job-description {
-        text-align: center;
-        margin-top: 15px;
-        font-size: 1.45em !important;
-    }
-}
-/*427*/
-
-@media (max-width:645px) {
-    #resume,
-    .about,
-    .date,
-    .job-description,
-    .jobTitle {
-        position: relative
-    }
-    .navbar {
-        margin-bottom: 0
-    }
-    .navbar-header {
-        background-color: rgba(82, 72, 156, .77)
-    }
-    p.about.about-para-one {
-        margin-top: 30px;
-        position: relative
-    }
-    img {
-        width: 35%;
-        margin: 0 auto;
-        float: none
-    }
-    .job-description {
-        text-align: center;
-        margin-top: 15px;
-        font-size: 1.85em
-    }
-    h1#skills {
-        margin-top: 15px
-    }
-    h1#resume-title {
-        margin-top: 10px
-    }
-    h3 {
-        font-size: 1.15em
-    }
-    p.description {
-        margin-top: 12px;
-        text-indent: 50px
-    }
-    .companyName {
-        font-size: 1.5em
-    }
-    .date,
-    .jobTitle {
-        top: 3px;
-        text-align: left;
-        font-size: 1.15em
-    }
-    .about {
-        font-size: 1.25em
-    }
-    .about.intro {
-        margin: 0
-    }
-    #email {
-        font-size: 1.3em
-    }
-    #navigation-menu {
-        display: none
-    }
-    .footer-nav {
-        margin-left: 0;
-        text-align: center
-    }
+		text-align: center;
+		margin-top: 15px;
+		font-size: 1.85em
+	}
+	h1#skills {
+		margin-top: 15px
+	}
+	h1#resume-title {
+		margin-top: 10px
+	}
+	h3 {
+		font-size: 1.15em
+	}
+	p.description {
+		margin-top: 12px;
+		text-indent: 50px
+	}
+	.companyName {
+		font-size: 1.5em
+	}
+	.date,
+	.jobTitle {
+		top: 3px;
+		text-align: left;
+		font-size: 1.15em
+	}
+	.about {
+		font-size: 1.25em
+	}
+	.about.intro {
+		margin: 0
+	}
+	#email {
+		font-size: 1.3em
+	}
+	#navigation-menu {
+		display: none
+	}
+	.footer-nav {
+		margin-left: 0;
+		text-align: center
+	}
 	.ham-nav{
 		text-align: center;
 		padding: 3px 0px 0px 3px;
 		width: 100px;
 		font-size: 1.75em;
 		color: #695992;
+		text-transform: uppercase;
 	}
 }
 
-@media screen and (min-width:646px) {
-    .pos-f-t {
-        display: none
-    }
-    #hamburger-navigation {
-        font-size: 5px;
-        color: #000
-    }
+@media only screen and (min-width: 767px) {
+.pos-f-t{
+	display: none;
 }
+ #resume,
+.about,
+.date,
+.job-description,
+.jobTitle{
+	position: relative
+}
+img {
+	width: 18%;
+	margin: 0 auto;
+	float: none;
+}
+
+.job-description {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.85em;
+}
+h1#skills {
+	margin-top: 20px;
+}
+h1#resume-title {
+	margin-top: 10px;
+}
+
+.about {
+	font-size: 1.45em;
+	margin-top: 30px;
+	clear: both;
+}
+#email {
+	font-size: 1.3em
+}
+.companyName {
+font-weight: 500;
+font-size: 1.95em
+}
+
+.jobTitle {
+font-style: italic;
+font-size: 1.35em;
+}
+
+.date {
+text-align: right;
+bottom: 2.8em;
+/*font-size: 1.45em;*/
+}
+
+.description {
+font-size: 1.25em;
+margin-top: -20px
+}
+}
+
+
