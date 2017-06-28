@@ -4,6 +4,6 @@
 //	}, 1500);
 //});
 
-$("button").click(function() {
+$("#display-resume").click(function() {
   $( ".description, .relevant-courses " ).toggle( "slow" );
 });

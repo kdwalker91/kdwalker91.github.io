@@ -69,7 +69,7 @@ ul a {
 color: #FFF
 }
 
-a:hover {
+ul>a:hover {
 text-decoration: none;
 color: #d8d5de;
 opacity: .5
@@ -168,7 +168,7 @@ transition: none!important
 }
 
 .progress-bar-success {
-background-color: #695992
+background-color: #695992;
 }
 
 .relevant-courses {
@@ -184,6 +184,9 @@ background-color: #695992
 /*	margin: 0;*/
 /*	clear: both;*/
 	line-height: 1em;
+}
+.download-resume{
+	color:black;
 }
 .companyName {
 font-weight: 500;
@@ -208,16 +211,17 @@ font-size: 1.8em;
 	text-indent: 50px;
 	line-height: 2em;
 }
-button {
-border-radius: 4px;
+.button {
+	border-radius: 4px;
     position: relative;
     padding: 10px;
     margin-bottom: 10px;
     width: 200px;
     font-size: 1.25em;
+	color: black;
 }
-button:hover {
-    color: white;
+input:hover {
+    color: #695992;
 }
 .center-button{
 	text-align: center;
