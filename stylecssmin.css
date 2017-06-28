@@ -261,108 +261,113 @@ color: #bcb7c9
 }
 
 @media (max-width:480px) {
-	
-.job-description,.name-text {
-	text-align: center;
-	margin-top: 15px;
-	font-size: 1.45em !important;
+.pos-f-t{
+	display:block;
 }
-.footer-nav {
-	font-size: .9em
-}
-#hide-paragraph-1,.contract-intern{
-	display: none;
-}
-.relevant-courses {
-	width: 264px;
-	margin: 0;
-	padding: 0;
-}
-.relevant-courses li {
-	font-size: .82em;
-	line-height: 1em;
-	position: relative;
-/*	left: 50px;*/
-	float: left;
-	clear: both;
-}
-#resume,
-.about,
-.date,
-.job-description,
-.jobTitle {
-	position: relative
-}
-.navbar {
-	margin-bottom: 0
-}
-.navbar-header {
-	background-color: rgba(82, 72, 156, .77)
-}
-p.about.about-para-one {
-	margin-top: 30px;
-	position: relative;
-}
-img {
-	width: 35%;
-	margin: 0 auto;
-	float: none;
-}
-.job-description {
-	text-align: center;
-	margin-top: 15px;
-	font-size: 1.85em
-}
-h1#skills {
-	margin-top: 15px
-}
-h1#resume-title {
-	margin-top: 10px
-}
-h3 {
-	font-size: 1.05em;
-}
-p.description {
-	margin-top: 12px;
-	font-size: 1.1em;
-	text-indent: 0;
-}
-.companyName {
-	font-size: 1.1em;
-	font-weight: 600;
-}
-.date,
-.jobTitle {
-	top: 4px;
-	padding: 3px;
-	text-align: left;
-	font-size: .94em
-}
-.about {
-	font-size: 1.05em;
-}
+	.job-description,.name-text {
+		text-align: center;
+		margin-top: 15px;
+		font-size: 1.45em !important;
+	}
+	.footer-nav {
+		font-size: .9em
+	}
+	#hide-paragraph-1,.contract-intern{
+		display: none;
+	}
+	.relevant-courses {
+		width: 264px;
+		margin: 0;
+		padding: 0;
+	}
+	.relevant-courses li {
+		font-size: .82em;
+		line-height: 1em;
+		position: relative;
+	/*	left: 50px;*/
+		float: left;
+		clear: both;
+	}
+	#resume,
+	.about,
+	.date,
+	.job-description,
+	.jobTitle {
+		position: relative
+	}
+	.navbar {
+		margin-bottom: 0
+	}
+	.navbar-header {
+		background-color: rgba(82, 72, 156, .77)
+	}
+	p.about.about-para-one {
+		margin-top: 30px;
+		position: relative;
+	}
+	img {
+		width: 35%;
+		margin: 0 auto;
+		float: none;
+	}
+	.job-description {
+		text-align: center;
+		margin-top: 15px;
+		font-size: 1.85em
+	}
+	h1#skills {
+		margin-top: 15px
+	}
+	h1#resume-title {
+		margin-top: 10px
+	}
+	h3 {
+		font-size: 1.05em;
+	}
+	p.description {
+		margin-top: 12px;
+		font-size: 1.1em;
+		text-indent: 0;
+	}
+	.companyName {
+		font-size: 1.1em;
+		font-weight: 600;
+	}
+	.date,
+	.jobTitle {
+		top: 4px;
+		padding: 3px;
+		text-align: left;
+		font-size: .94em
+	}
+	.about {
+		font-size: 1.05em;
+	}
 
-#email {
-	font-size: 1.05em;
-}
-#navigation-menu {
-	display: none
-}
-.footer-nav {
-	margin-left: 0;
-	text-align: center
-}
-.ham-nav{
-	text-align: center;
-	padding: 3px 0px 0px 3px;
-	width: 100px;
-	font-size: 1.75em;
-	color: #695992;
-	text-transform: uppercase;
-}
+	#email {
+		font-size: 1.05em;
+	}
+	#navigation-menu {
+		display: none
+	}
+	.footer-nav {
+		margin-left: 0;
+		text-align: center
+	}
+	.ham-nav{
+		text-align: center;
+		padding: 3px 0px 0px 3px;
+		width: 100px;
+		font-size: 1.75em;
+		color: #695992;
+		text-transform: uppercase;
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 766px) {
+.pos-f-t{
+	display:block;
+}
 	#hide-paragraph-1{
 		display: none;
 	}
