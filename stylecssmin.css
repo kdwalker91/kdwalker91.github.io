@@ -117,7 +117,6 @@ img {
 	animation-delay: 0s;
 	line-height: 1.7;
 	font-size: 1.85em;
-/*	margin-top: 51px;*/
 	clear: both;
 }
 
@@ -203,7 +202,7 @@ font-size: 1.8em;
 }
 
 .description {
-	font-size: 1.25em;
+	font-size: 1.75em;
 	margin-top: -20px;
 	display: none;
 	text-indent: 50px;
