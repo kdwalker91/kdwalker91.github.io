@@ -76,18 +76,18 @@ opacity: .5
 }
 
 img {
-margin: 0 auto;
-float: none;
-top: 20px;
-width: 19%;
-display: block;
-border-radius: 5%;
--webkit-animation-name: imageDrop;
--webkit-animation-duration: 2s;
-animation-name: imageDrop;
-animation-timing-function: ease-out;
-animation-duration: 2s;
-animation-delay: 0s
+	margin: 0 auto;
+	float: none;
+	top: 20px;
+	width: 19%;
+	display: block;
+	border-radius: 5%;
+	-webkit-animation-name: imageDrop;
+	-webkit-animation-duration: 2s;
+	animation-name: imageDrop;
+	animation-timing-function: ease-out;
+	animation-duration: 2s;
+	animation-delay: 0s
 }
 
 @keyframes imageDrop {
@@ -114,8 +114,10 @@ animation-delay: 0s
 	animation-name: about;
 	animation-duration: 2s;
 	animation-delay: 0s;
-	font-size: 1.5em;
-	line-height: 1.7
+	line-height: 1.7;
+	font-size: 1.85em;
+	margin-top: 30px;
+	clear: both;
 }
 
 .job-description,
