@@ -3,7 +3,9 @@ img {
 -webkit-animation-delay: 0s;
 position: relative;
 }
-
+.pos-f-t{
+	display: none;
+}
 .progress,
 body,
 footer {
@@ -74,8 +76,10 @@ opacity: .5
 }
 
 img {
+margin: 0 auto;
+float: none;
 top: 20px;
-width: 17.5%;
+width: 18%;
 display: block;
 float: left;
 border-radius: 5%;
@@ -152,13 +156,7 @@ animation-delay: 0s
 .about-para-one,
 .about-para-two {
 	margin-top: 15px;
-/*	text-indent: 50px*/
 }
-/*
-.about-para-two{
-	margin-bottom: 30px;
-}
-*/
 .progress {
 	background-color: #c2c4c4
 }
