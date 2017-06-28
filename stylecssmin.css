@@ -175,7 +175,7 @@ background-color: #695992
 .relevant-courses {
 	display: inline-block;
 	float: left;
-	font-size: .65em;
+	font-size: .959em;
 	width: 420px;
 	margin: 0;
 	display: none;
@@ -193,7 +193,7 @@ font-size: 1.5em
 .date {
 text-align: right;
 bottom: 3em;
-font-size: 1.45em
+font-size: 1.8em;
 }
 
 .description {
@@ -204,10 +204,15 @@ font-size: 1.45em
 	line-height: 2em;
 }
 button {
-	border-radius: 4px;
-	position: relative;
-	padding: 4px;
-	margin-bottom: 10px;
+border-radius: 4px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: 1.25em;
+}
+button:hover {
+    color: white;
 }
 .center-button{
 	text-align: center;
@@ -220,7 +225,7 @@ margin: 1em 0
 #email {
 text-align: center;
 font-size: 1.5em;
-margin-top: 20px;
+margin-top: 30px;
 }
 
 footer {
@@ -232,7 +237,7 @@ background-color: rgba(82, 72, 156, .77)
 .footer-nav {
 top: 30px;
 margin-left: 50px;
-font-size: 1.15em;
+font-size: 1.25em;
 color: #fff
 }
 
@@ -326,7 +331,7 @@ p.description {
 }
 
 #email {
-	font-size: 1.3em
+	font-size: 2em;
 }
 #navigation-menu {
 	display: none
@@ -484,11 +489,11 @@ bottom: 2.8em;
 }
 
 .description {
-	font-size: 1.25em;
+	font-size: 1.68em;
 	margin-top: -20px
 }
 	h3{
-		font-size: 2.em;
+		font-size: 2em;
 	}
 }
 
