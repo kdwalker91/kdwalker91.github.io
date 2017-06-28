@@ -79,9 +79,8 @@ img {
 margin: 0 auto;
 float: none;
 top: 20px;
-width: 18%;
+width: 19%;
 display: block;
-float: left;
 border-radius: 5%;
 -webkit-animation-name: imageDrop;
 -webkit-animation-duration: 2s;
