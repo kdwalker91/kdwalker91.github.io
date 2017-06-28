@@ -173,12 +173,18 @@ background-color: #695992
 }
 
 .relevant-courses {
-	display: inline-block;
-	float: left;
-	font-size: .959em;
-	width: 420px;
-	margin: 0;
+	width: 45%;
+	padding: 0;
 	display: none;
+/*	height: 200px;*/
+/*	display: inline-block;*/
+}
+.relevant-courses li {
+	font-size: 1.40em;
+/*	float: left;*/
+/*	margin: 0;*/
+/*	clear: both;*/
+	line-height: 1em;
 }
 .companyName {
 font-weight: 500;
@@ -192,7 +198,7 @@ font-size: 1.5em
 
 .date {
 text-align: right;
-bottom: 3em;
+bottom: 2.7em;
 font-size: 1.8em;
 }
 
@@ -256,26 +262,30 @@ color: #bcb7c9
 }
 
 @media (max-width:480px) {
-.footer-nav {
-	font-size: 1.15em
-}
-.job-description {
+	
+.job-description,.name-text {
 	text-align: center;
 	margin-top: 15px;
 	font-size: 1.45em !important;
 }
+.footer-nav {
+	font-size: .9em
 }
-
-@media (max-width:480px) {
-#hide-paragraph-1{
+#hide-paragraph-1,.contract-intern{
 	display: none;
 }
 .relevant-courses {
-	font-size: .60em;
+	width: 264px;
 	margin: 0;
-	display: none;
+	padding: 0;
+}
+.relevant-courses li {
+	font-size: .82em;
 	line-height: 1em;
-	right: 0;
+	position: relative;
+/*	left: 50px;*/
+	float: left;
+	clear: both;
 }
 #resume,
 .about,
@@ -311,27 +321,30 @@ h1#resume-title {
 	margin-top: 10px
 }
 h3 {
-	font-size: 1.15em
+	font-size: 1.05em;
 }
 p.description {
 	margin-top: 12px;
-	text-indent: 50px
+	font-size: 1.1em;
+	text-indent: 0;
 }
 .companyName {
-	font-size: 1.5em
+	font-size: 1.1em;
+	font-weight: 600;
 }
 .date,
 .jobTitle {
-	top: 3px;
+	top: 4px;
+	padding: 3px;
 	text-align: left;
-	font-size: 1.15em
+	font-size: .94em
 }
 .about {
-	font-size: 1.25em
+	font-size: 1.05em;
 }
 
 #email {
-	font-size: 2em;
+	font-size: 1.05em;
 }
 #navigation-menu {
 	display: none
@@ -355,9 +368,11 @@ p.description {
 		display: none;
 	}
 .relevant-courses {
-	font-size: .67em;
-	margin: 0;
-	display: none;
+	width: 50%;
+	padding: 0;
+}
+.relevant-courses li {
+	font-size: 1.09em;
 	line-height: 1em;
 }
 	 #resume,
@@ -398,7 +413,7 @@ p.description {
 	}
 	p.description {
 		margin-top: 12px;
-		text-indent: 50px
+		text-indent: 0px;
 	}
 	.companyName {
 		font-size: 1.5em
@@ -435,7 +450,18 @@ p.description {
 	}
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+.relevant-courses {
+	width: 50%;
+	padding: 0;
+}
+.relevant-courses li {
+	font-size: 1.09em;
+	float: left;
+	margin: 0;
+	clear: both;
+	line-height: 1em;
+}
 .pos-f-t{
 	display: none;
 }
@@ -483,9 +509,10 @@ font-size: 1.5em;
 }
 
 .date {
-text-align: right;
-bottom: 2.8em;
-/*font-size: 1.45em;*/
+    text-align: left;
+    top: 1px;
+	font-size: 1.8em;
+    margin-bottom: 30px;
 }
 
 .description {
