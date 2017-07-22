@@ -42,11 +42,15 @@ margin: 0 auto
 }
 
 .hamburger-label {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
 	font-weight: 600;
 	display: block;
 	color: #000;
 	text-transform: uppercase;
 	font-family: "Helvetica";
+    width: 90%;
 }
 
 #navigation-menu {
